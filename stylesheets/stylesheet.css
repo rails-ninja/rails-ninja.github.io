@@ -57,6 +57,7 @@ header h1 {
   -webkit-font-smoothing: antialiased;
 }
 
+
 header h1:before {
   content: "./ ";
   font-size: 24px;
@@ -67,6 +68,25 @@ header h2 {
   font-weight: 300;
   color: #666;
 }
+
+
+
+@media screen and (max-width: 980px) {
+  header .container {
+    width: 250px;
+    margin: auto;
+  }
+  header h1 {
+    font-size: 26px;
+  }
+  header h2 {
+    font-size: 14px;
+  }
+}
+
+
+
+
 
 #downloads .btn {
   display: inline-block;
