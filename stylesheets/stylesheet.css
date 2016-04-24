@@ -45,6 +45,12 @@ header {
   margin: 0 0 40px 0;
 }
 
+main {
+  padding-bottom: 50px;
+  margin: 0 0 40px 0;
+  border-bottom: 1px dashed #b5e853;
+}
+
 header h1 {
   font-size: 30px;
   line-height: 1.5;
@@ -97,6 +103,7 @@ header h2 {
 
 /* Main Content
 */
+
 
 #main_content {
   width: 100%;
