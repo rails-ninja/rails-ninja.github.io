@@ -1,6 +1,6 @@
 .noshow {
-  color: #B5E853;
-  text-decoration: none;
+  color: #B5E853: !important;
+  text-decoration: none !important;
 }
 
 body {
