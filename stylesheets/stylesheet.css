@@ -29,6 +29,7 @@ li {
   line-height: 1.4 ;
 }
 
+
 /* Header, <header>
    header   - container
    h1       - project name
@@ -83,7 +84,6 @@ header h2 {
     font-size: 14px;
   }
 }
-
 
 
 
@@ -143,6 +143,19 @@ h1, h2, h3, h4, h5, h6 {
   color: #999;
   margin: 0 0 5px 0;
 }
+
+@media screen and (max-width: 980px) {
+  #main_content h3 {
+    font-size: 16px;
+  }
+  #main_content li a {
+    font-size: 14px;
+  }
+  #main_content li {
+    font-size: 14px;
+  }
+}
+
 
 dt {
   font-style: italic;
